@@ -1,0 +1,52 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)), url(Bird.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+
+nav {width: 100%; height=100px; display: flex; color: white;}
+.nav menu ul li:hover{color: #ff5722;}
+
+.logo{ width: 10%; height=100px;}
+.logo h1{line-height: 100px;}
+
+.centre{ width: 40%; height: 100px;}
+.centre h1{line-height: 100px; text-align: center; font-size: 29px; transition: all 2s ease-in; color: yellow; animation: blinking 1.5s linear infinite;}
+@-webkit-keyframes blinking {
+    0% {opacity: 1.0;}
+    50% {opacity: 0.0;}
+    100% {opacity: 1.0;}
+}
+
+.menu{width: 50%; height: 100%;}
+.menu ul {width=100%; height: 100px; display: flex; flex-direction: row; justify-content: space-around; align-items: center;}
+
+.menu ul li{list-style: none; font-size: 15px; font-weight: bold; text-transform: uppercase;}
+
+section{display: flex;}
+.leftside {width: 50%; height: 300px; margin-top: 120px; color: white; padding: 40px; text-align: justify-all;}
+.leftside h1{font-size: 60px; font-weight: 900; text-transform: uppercase;}
+.leftside p{font-size: 40px; text-transform: uppercase;}
+
+.rightside{width: 50%; height: 300px; color: white; text-align: center; margin-top: 150px; padding: 40px;}
+.rightside h1 {font-size: 35px; font-weight: 900; text-transform: uppercase; padding-bottom: 40px;}
+.rightside button {font-size: 20px; font-weight: bold; color: #fff; padding: 20px 35px;
+    background-color: #ff5722; border: 1px solid gray; border-radius: 4px; outline: none; cursor: pointer;
+    text-align: right;}
+.rightside button:hover{background: transparent; color: #ff5722;}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
+
